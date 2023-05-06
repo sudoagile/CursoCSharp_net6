@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'CursoCSharp_1_appservice' " />
   <ItemGroup>
     <_WebToolingArtifacts Remove="Properties\PublishProfiles\master-site - Web Deploy.pubxml" />
   </ItemGroup>
